@@ -1,11 +1,12 @@
 import '../Styles/App.css';
+import LeftBar from './LeftBar';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-    <div> Vedant - make navbar.js 
-    </div>
-    <div> mk & yd  - make body.js and inner components</div>
+      <Navbar/>
+      <LeftBar />
     </div>
   );
 }
