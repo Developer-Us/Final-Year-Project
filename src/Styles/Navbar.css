@@ -1,0 +1,39 @@
+#Navbar {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 56px;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  background-color: rgb(246, 246, 246);
+}
+
+#MenuIcon{
+  padding: 2px 8px;
+}
+
+
+#Logo {
+  margin-left: 25px;
+  font-weight: bolder;
+  /* font-size: 20px; */
+}
+
+#Youtube-Logo-Text {
+  position: relative;
+  top: -12px;
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+#AccountIcon {
+  position: absolute;
+  right: 8px;
+  top: 3px;
+}
+
+
+/* Hover Properties   */
+#MenuIcon:hover {
+  cursor: pointer;
+}

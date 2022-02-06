@@ -1,28 +1,43 @@
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-#MainVedioContainer{
-border:2px solid green;
-width:85%;
-height:100vh;
-padding:10px;
-display:flex;
-flex-direction: column;
-overflow:auto;
+#MainVedioContainer {
+  /* border:2px solid green; */
+  width: 85%;
+  height: 100vh;
+  margin-top: 58px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  z-index: -5;
 }
-#InfoBox{
-    border:2px solid black;
-    width:100%;
-    height:10%;
+#InfoBox {
+  border: 2px solid black;
+  width: 100%;
+  height: 10%;
 }
-#VedioContainer{
-    /* border:2px solid red; */
-    width:100%;
-    height:100rem; 
-    display: flex;
-    flex-wrap: wrap;
-    padding-Top:9px;
-    justify-content: center;
+#VedioContainer {
+  /* border:2px solid red; */
+  width: 100%;
+  height: 100rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 9px;
+  justify-content: center;
+}
+
+/* Transition Classes  */
+.ToggleVideoSectionToLeft{
+    transform: translateX(-0.3%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.ToggleVideoSectionToRight{
+    transform: translateX(0%);
+    transition: transform 0.4s ease-in-out;
 }
