@@ -16,6 +16,8 @@
 #Logo {
   margin-left: 25px;
   font-weight: bolder;
+  text-decoration: none;
+  color: black;
   /* font-size: 20px; */
 }
 
@@ -32,8 +34,25 @@
   top: 3px;
 }
 
+#Theme {
+  position: absolute;
+  right: 60px;
+  top: 3px;
+}
 
 /* Hover Properties   */
 #MenuIcon:hover {
   cursor: pointer;
+}
+
+#Theme:hover{
+  cursor: pointer;
+}
+
+#AccountIcon:hover{
+  cursor: pointer;
+}
+
+#Logo:hover{
+cursor: pointer;
 }

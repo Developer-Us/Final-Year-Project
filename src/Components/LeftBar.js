@@ -5,7 +5,7 @@ import HomeIcon from '@mui/icons-material/Home';
 
 
 export default function LeftBar() {
-  return <div id="LeftBar" className="ToggleLeftBarOutside">
+  return <div id="LeftBar" className="ToggleLeftBarInside">
     <div className="Option active">
       <div className='OptionIcon'><HomeIcon /></div>
       <div className="OptionName">Home</div>
@@ -15,8 +15,8 @@ export default function LeftBar() {
     <div id="LoginSignup">
       <div id="userIcon"><AccountCircleIcon style={{ height: "65px", width: "41px" }} /></div>
       <div id="LoginSignupBtns">
-        <div id="Login"><a className="anchor-style" href="Login">Login</a></div>
-        <div id="Signup"><a className="anchor-style" href="Signup">Signup</a></div>
+        <div id="Login"><a className="anchor-style" href="/">Login</a></div>
+        <div id="Signup"><a className="anchor-style" href="/">Signup</a></div>
       </div>
     </div>
   </div>;

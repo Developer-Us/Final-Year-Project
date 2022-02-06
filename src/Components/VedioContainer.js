@@ -3,7 +3,7 @@ import '../Styles/VedioContainer.css'
 const VedioContainer=()=>{
 return(
     <>
-    <div id="MainVedioContainer">
+    <div id="MainVedioContainer" >
       <div id="InfoBox">
         <h2>This is Information</h2>
       </div>
