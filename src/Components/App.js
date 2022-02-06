@@ -1,12 +1,10 @@
 import '../Styles/App.css';
-
+import Home from './Home'
 function App() {
   return (
-    <div className="App">
-    <div> Vedant - make navbar.js 
-    </div>
-    <div> mk & yd  - make body.js and inner components</div>
-    </div>
+  <>
+ <Home/>
+  </>
   );
 }
 
