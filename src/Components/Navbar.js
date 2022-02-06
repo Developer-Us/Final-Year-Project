@@ -7,9 +7,16 @@ export default function Navbar() {
     const HandleMenuIcon = () => {
         if (document.getElementById("LeftBar").className !== "ToggleLeftBarInside") {
             document.getElementById("LeftBar").className = "ToggleLeftBarInside";
+            document.getElementById("MainVedioContainer").style.position="static";
+            document.getElementById("MainVedioContainer").style.width="100%";
+            document.getElementById("MainVedioContainer").className="ToggleVideoSectionToLeft";
         }
         else {
             document.getElementById("LeftBar").className = "ToggleLeftBarOutside";
+            document.getElementById("MainVedioContainer").style.position="absolute";
+            document.getElementById("MainVedioContainer").style.right="0";
+            document.getElementById("MainVedioContainer").style.width="85%";
+            document.getElementById("MainVedioContainer").className="ToggleVideoSectionToRight";
         }
     }
     return <div id="Navbar">

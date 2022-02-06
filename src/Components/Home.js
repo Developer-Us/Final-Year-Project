@@ -1,10 +1,14 @@
 import React from 'react';
-import VedioContainer from './VedioContainer' 
+import LeftBar from './LeftBar';
+import Navbar from './Navbar';
+import VedioContainer from './VedioContainer'
 // Vedio container made by Yadhnesh...
 export default function Home() {
   return (
-  <>
-  <VedioContainer/> 
-  </>
+    <>
+      <Navbar />
+      <LeftBar />
+      <VedioContainer />
+    </>
   );
 }
