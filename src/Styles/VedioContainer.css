@@ -5,7 +5,7 @@
 }
 #MainVedioContainer {
   /* border:2px solid green; */
-  width: 85%;
+  width: 100%;
   height: 100vh;
   margin-top: 58px;
   padding: 10px;
@@ -32,12 +32,12 @@
 }
 
 /* Transition Classes  */
-.ToggleVideoSectionToLeft{
-    transform: translateX(-0.3%);
-    transition: transform 0.4s ease-in-out;
+.ToggleVideoSectionToLeft {
+  transform: translateX(-0.3%);
+  transition: transform 0.4s ease-in-out;
 }
 
-.ToggleVideoSectionToRight{
-    transform: translateX(0%);
-    transition: transform 0.4s ease-in-out;
+.ToggleVideoSectionToRight {
+  transform: translateX(0%);
+  transition: transform 0.4s ease-in-out;
 }
