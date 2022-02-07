@@ -5,6 +5,8 @@ import '../Styles/LoginUtil.css';
 export default function login() {
 
   return (
+
+    
     <div class="container-login100" >
         <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
             <form class="login100-form validate-form flex-sb flex-w">
@@ -12,6 +14,7 @@ export default function login() {
                     Sign In With
                 </span>
 
+                {/* sign in with facebook and google button  */}
                 <a href="/" class="btn-face m-b-20">
                     <i class="fa fa-facebook-official"></i>
                     Facebook
@@ -22,6 +25,7 @@ export default function login() {
                     Google
                 </a>
                 
+                {/* username input section  */}
                 <div class="p-t-31 p-b-9">
                     <span class="txt1">
                         Username
@@ -32,6 +36,7 @@ export default function login() {
                     <span class="focus-input100"></span>
                 </div>
                 
+                {/* password input section */}
                 <div class="p-t-13 p-b-9">
                     <span class="txt1">
                         Password
@@ -41,7 +46,7 @@ export default function login() {
                         Forgot?
                     </a>
                 </div>
-                <div class="wrap-input100 validate-input" data-validate = "Password is required">
+                <div class="wrap-input100 " >
                     <input class="input100" type="password" name="pass" />
                     <span class="focus-input100"></span>
                 </div>
