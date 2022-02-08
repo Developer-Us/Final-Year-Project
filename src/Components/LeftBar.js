@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/LeftBar.css';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import HomeIcon from '@mui/icons-material/Home';
-import Login from './Login';
+
 
 
 export default function LeftBar(){
