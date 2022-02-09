@@ -39,6 +39,10 @@ flex-direction: column;
 
 /*Media Queries*/
 @media only screen and (max-width: 361px) {
+    #VedioDesc{
+    width:"100%";
+    margin: 0px 17px;
+    }
     #VedioC{
         width:"100%";
     }
