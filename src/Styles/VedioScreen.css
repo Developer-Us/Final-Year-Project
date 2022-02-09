@@ -37,13 +37,5 @@ flex-direction: column;
     border-radius:26px;
 }
 
-/*Media Queries*/
-@media only screen and (max-width: 361px) {
-    #VedioDesc{
-    width:"100%";
-    margin: 0px 17px;
-    }
-    #VedioC{
-        width:"100%";
-    }
-}
+
+
