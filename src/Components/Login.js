@@ -7,7 +7,7 @@ export default function login() {
   return (
 
     
-    <div className="container-login100" >
+    <div className="container-login100" style={{display:"none"}}>
         <div className="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
             <form className="login100-form validate-form flex-sb flex-w">
                 <span className="login100-form-title p-b-53">
