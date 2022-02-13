@@ -70,7 +70,5 @@ export default function login() {
             </form>
         </div>
     </div>
-
-   
   );
 }
