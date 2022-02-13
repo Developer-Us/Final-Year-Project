@@ -14,7 +14,9 @@
   overflow: auto;
   position: absolute;
   right: 0;
-  z-index: -5;
+  z-index: 20;
+  overflow-y: scroll;
+  overflow-y: overlay;
 }
 #InfoBox {
   border: 2px solid black;
