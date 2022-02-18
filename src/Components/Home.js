@@ -3,16 +3,17 @@ import LeftBar from './LeftBar';
 import Navbar from './Navbar';
 import VedioContainer from './VedioContainer';
 import Login from './Login'
-import SignUp from './SignUp';
-// Vedio container made by Yadhnesh...
+import VideoWatchSection from './VideoWatchSection';
+import SignUp from './SignUp'
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <LeftBar/>
-      <VedioContainer/>
-      <Login/>
-      <SignUp/>
+      <Navbar />
+      <LeftBar />
+      <VedioContainer />
+      <Login />
+      <SignUp />
+      <VideoWatchSection />
     </>
   );
 }
