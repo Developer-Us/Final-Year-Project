@@ -36,7 +36,7 @@ export default function VideoWatchSection() {
     document.getElementById("reportBtnText").style.display="none";
   }
   return (
-    <div className="VideoWatchSection">
+    <div className="VideoWatchSection" style={{display:"none"}}>
       <div className='VideoPlaySection'>
         <div className="VideoPlayer">
           <div className="Video">

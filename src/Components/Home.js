@@ -5,16 +5,15 @@ import VedioContainer from './VedioContainer';
 import Login from './Login'
 import VideoWatchSection from './VideoWatchSection';
 import SignUp from './SignUp'
-// Vedio container made by Yadhnesh...
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <LeftBar/>
-      <VedioContainer/>
-    <Login/>
-    <SignUp/>
-    <VideoWatchSection/>
+      <Navbar />
+      <LeftBar />
+      <VedioContainer />
+      <Login />
+      <SignUp />
+      <VideoWatchSection />
     </>
   );
 }
