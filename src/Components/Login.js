@@ -4,7 +4,7 @@ import "../Styles/Login.css";
 export default function Login() {
   return (
     <>
-      <div className={"Login"}>
+      <div className={"Login"} style={{display:"none"}}>
         <form>
           <h2>Log in</h2>
 
