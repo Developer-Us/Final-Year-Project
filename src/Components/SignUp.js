@@ -4,7 +4,7 @@ import React from 'react'
 export default function SignUp() {
   return (
     <>
-    <div className='signup' >
+    <div className='signup' style={{display:"none"}}>
         <form>
             <h2>Sign Up</h2>
             <p>
