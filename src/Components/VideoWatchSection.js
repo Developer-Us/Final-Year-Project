@@ -40,7 +40,7 @@ export default function VideoWatchSection() {
       <div className='VideoPlaySection'>
         <div className="VideoPlayer">
           <div className="Video">
-            <video className="VideoTag" src="Sample Video/sampleVideo.mp4" type="video/mp4" controls>
+            <video className="VideoTag" src="Sample Video/sampleVideo.mov" type="video/mp4" controls>
             </video>
           </div>
 
