@@ -10,15 +10,16 @@ export default function Login() {
     <div className={'Login'}>
         <form>
             <h2>Log in</h2>
-            
+
             <p>
-                <label htmlFor="Username" className="floatLabel">Username</label>
+                <label htmlFor="email" className="floatLabel">email</label>
 			    <input id="U_Name" name="Username" type="text"/>
             </p>
 		  
 		    <p>
 			    <label htmlFor="password" className="floatLabel">Password</label>
 			    <input id="password" name="password" type="password"/>
+          <span>forgot password ? </span>
 			   
 		    </p>
 		   
@@ -27,7 +28,7 @@ export default function Login() {
 		    </p>
             <p>
             <button id='text'>
-            Sign in with
+            Log in with 
             </button>
             </p>
             <p>
