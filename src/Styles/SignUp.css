@@ -1,24 +1,65 @@
 #button{background-color: rgba(139, 245, 10, 0.7);}
 
+.signup
+{
+    display: none;
+}
 
-form {
+#circle
+{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-top: 5px;
+        background: #fff;
+        border: 3px solid #000;
+        color: #000;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#smallcircle
+{
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        background: rgb(252, 48, 48);
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: -40px;
+        left: 170px;
+        cursor: pointer;
+}
+
+#form {
   background: #fff;
   padding: 20px 35px 20px;
   max-width: 300px;
-  margin: 20px auto 0;
+  margin: 40px auto 40px;
   box-shadow: 0 0 1em rgba(20, 20, 20, 0.719);
   border-radius: 10px;
   font-size: 10px;
 }
-h2 {
-    margin:0 0 50px 0;
+
+#smallcircle:hover
+{
+    box-shadow: 0 0 1em rgba(20, 20, 20, 0.719);
+    color: #000;
+}
+
+#h2 {
+    margin:0px 0 50px 0;
     padding:10px;
     text-align:center;
     font-size:30px;
     color:darken(#e5e5e5, 50%);
     border-bottom:solid 1px #0a0a0a;
+    border-top:solid 1px #0a0a0a;
 }
-p 
+#p 
 {
     margin: 0 0 3em 0;
     position: relative;
@@ -49,14 +90,14 @@ input[type="password"]
 }
 /* 
 this is to add error msg 
-span 
+#error_msg
 {
     display:block;
     background: #f88d8d;
     padding: 2px 5px;
     color: rgb(0, 0, 0);
 } */
-input[type="button"] 
+#submit
 {
     background-color: rgb(255, 1, 1) ;
     border-radius: 5px;
@@ -72,7 +113,7 @@ input[type="button"]
     text-shadow: 0 1px #f16767;
 }
   
-input[type="button"]:hover 
+#submit:hover 
 {
     background: rgb(255, 1, 1);
     color: black;
