@@ -1,16 +1,20 @@
 #button{background-color: rgba(139, 245, 10, 0.7);}
 
+.Login
+{
+    display: none;
+}
 
-form {
+#form {
   background: #fff;
   padding: 20px 35px 20px;
   max-width: 300px;
-  margin: 20px auto 0;
+  margin: 40px auto 40px;
   box-shadow: 0 0 1em rgba(20, 20, 20, 0.719);
   border-radius: 10px;
   font-size: 10px;
 }
-h2 {
+#h2 {
     margin:0 0 50px 0;
     padding:10px;
     text-align:center;
@@ -18,7 +22,7 @@ h2 {
     color:darken(#e5e5e5, 50%);
     border-bottom:solid 1px #0a0a0a;
 }
-p 
+#p 
 {
     margin: 0 0 3em 0;
     position: relative;

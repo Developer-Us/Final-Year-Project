@@ -4,9 +4,9 @@ const VedioContainer=()=>{
 return(
     <>
     <div id="MainVedioContainer" >
-      <div id="InfoBox">
+      {/* <div id="InfoBox">
         <h2>This is Information</h2>
-      </div>
+      </div> */}
       <div id="VedioContainer">
       <VedioScreen/>
           <VedioScreen/>
