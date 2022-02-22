@@ -4,7 +4,7 @@ import "../Styles/Login.css";
 export default function Login() {
   return (
     <>
-      <div className="Login" >
+    <div id="RightSideSection" className="Login">
         <form id="form">
           <h2 id="h2">Log in</h2>
 
@@ -36,6 +36,8 @@ export default function Login() {
           </p>
         </form>
       </div>
+
+     
     </>
   );
 }
