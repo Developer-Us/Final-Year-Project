@@ -4,8 +4,18 @@ import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 import ReplyIcon from '@mui/icons-material/Reply';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import ReportIcon from '@mui/icons-material/Report';
+import { useEffect } from 'react';
 
 export default function VideoWatchSection() {
+  useEffect(() => {
+    document.getElementById("LeftBar").className = "ToggleLeftBarInside";
+    document.getElementById("RightSideSection").style.position = "static";
+    document.getElementById("RightSideSection").style.width = "100%";
+    document.getElementById("RightSideSection").className = "ToggleVideoSectionToLeft";
+  })
+  
+
+
 
   //Functions for handling hover effect for like, share ...btns
   const DisplayLikeText = ()=>{
@@ -36,7 +46,7 @@ export default function VideoWatchSection() {
     document.getElementById("reportBtnText").style.display="none";
   }
   return (
-    <div className="VideoWatchSection" style={{display:"none"}}>
+    <div id="RightSideSection" className="VideoWatchSection">
       <div className='VideoPlaySection'>
         <div className="VideoPlayer">
           <div className="Video">

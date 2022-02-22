@@ -1,7 +1,10 @@
 import '../Styles/VedioScreen.css'
+import { Link } from 'react-router-dom';
+
 const VedioScreen=()=>{
     return(
         <>
+        <Link to="/videoWatchSection" style={{textDecoration:"none",color:"black"}}>
         <div id="VedioDesc">
             <div id="VedioC"><img 
             src="Images/VedioThumnail.jpg" height="152px" width="291px" alt="loading.."/> {/*Add Image here */}
@@ -15,6 +18,8 @@ const VedioScreen=()=>{
             </ul>
             </div>
         </div>
+        </Link>
+        
         </>
     )
 }
