@@ -1,4 +1,3 @@
-#button{background-color: rgba(139, 245, 10, 0.7);}
 
 
 
@@ -12,22 +11,23 @@
         background: #fff;
         border: 3px solid #000;
         color: #000;
-        display: block;
         margin-left: auto;
         margin-right: auto;
+        display:flex;
+        justify-content: center;
 }
 
 #smallcircle
 {
         border-radius: 50%;
-        width: 25px;
-        height: 25px;
-        padding: 10px;
+        width: 35px;
+        height: 35px;
+        padding: 5px;
         background: rgb(252, 48, 48);
         color: rgb(255, 255, 255);
         position: relative;
-        top: -40px;
-        left: 170px;
+        bottom: 27px;
+        left: 140px;
         cursor: pointer;
 }
 
@@ -138,6 +138,9 @@ label
 }
 #text
 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: rgba(219, 218, 218, 0.342);
     border: 1px solid rgba(161, 161, 161, 0.534);
     font-size: 1.9em;
@@ -145,11 +148,13 @@ label
     border-radius: 5px;
     width: 100%;
     cursor: pointer;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
-    background-repeat: no-repeat;
-    background-position: 15px 9px;
-    background-size: 32px 32px;
 }
+
+.google-icon{
+margin-top: 5px;
+margin-right: 2px;
+}
+
 #text:hover
 {
     box-shadow: 0 0 0.2em rgba(20, 20, 20, 0.719); 
