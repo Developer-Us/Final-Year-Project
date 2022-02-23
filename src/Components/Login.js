@@ -27,7 +27,10 @@ export default function Login() {
             <input type="button" value="Log in" id="submit" />
           </p>
           <p id='p'>
-            <button id="text">Log in with Google</button>
+            <button id="text">
+            <div className="google-icon"> <img src="Images/icon-google.png" alt="" /></div>
+              <div> Sign in with Google </div>
+            </button>
           </p>
           <p id='p'>
             <span id="text_atlast">

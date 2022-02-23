@@ -9,8 +9,8 @@
   height: 100vh;
   margin-top: 58px;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   overflow: auto;
   position: absolute;
   right: 0;

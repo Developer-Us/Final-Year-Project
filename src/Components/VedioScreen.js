@@ -7,7 +7,7 @@ const VedioScreen=()=>{
         <Link to="/videoWatchSection" style={{textDecoration:"none",color:"black"}}>
         <div id="VedioDesc">
             <div id="VedioC"><img 
-            src="Images/VedioThumnail.jpg" height="152px" width="291px" alt="loading.."/> {/*Add Image here */}
+            src="Images/VedioThumnail.jpg" bgcolor="grey" height="152px" width="291px" alt="loading.."/> {/*Add Image here */}
             </div>
             <div id="VedioDetail">
             <span id="logo"><img src="Images/VedioThumnail.jpg" style={{borderRadius:"50%"}}height="40px" width="40px" alt=".." /></span>
