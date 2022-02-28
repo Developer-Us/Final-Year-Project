@@ -9,7 +9,7 @@
   border-radius: 10px;
   font-size: 10px;
 }
-#h2 {
+#Heading {
     margin:0 0 50px 0;
     padding:10px;
     text-align:center;
@@ -23,7 +23,7 @@
     position: relative;
 }
   
-input 
+#Email,#password
 {
     display: block;
     box-sizing: border-box;
@@ -31,8 +31,7 @@ input
     outline: none;
     margin:0;
 }
-input[type="text"],
-input[type="password"] 
+#Email,#password 
 {
     background: rgba(219, 218, 218, 0.342);
     border: 1px solid rgba(161, 161, 161, 0.534);
@@ -40,8 +39,7 @@ input[type="password"]
     padding: .8em .5em;
     border-radius: 5px;
 }
-  input[type="text"]:focus,
-  input[type="password"]:focus 
+  #Email:focus,#password:focus 
 {
     background: rgb(255, 255, 255);
     
@@ -55,7 +53,7 @@ span
     padding: 2px 5px;
     color: rgb(0, 0, 0);
 } */
-input[type="button"] 
+#submit 
 {
     background-color: rgb(255, 1, 1) ;
     border-radius: 5px;
@@ -71,7 +69,7 @@ input[type="button"]
     text-shadow: 0 1px #f16767;
 }
   
-input[type="button"]:hover 
+#submit:hover 
 {
     background: rgb(255, 1, 1);
     color: black;
@@ -79,20 +77,15 @@ input[type="button"]:hover
     box-shadow: 0 0 0.2em rgba(20, 20, 20, 0.719); 
 }
 
-label
+#Label
 {
     position: absolute;
     left: 8px;
-    top: 12px;
     color: rgb(87, 86, 86);
     font-size: 16px;
     display: inline-block;
     padding: 4px 10px;
     font-weight: 400;
-    background-color: rgba(255,255,255,0);
-}
-.floatLabel
-{
     top: -20px;
     background-color: rgba(219, 218, 218, 0);
     font-size: 13px;

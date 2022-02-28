@@ -19,31 +19,31 @@ export default function SignUp() {
           <div id="smallcircle">
             <AddAPhotoRoundedIcon />
           </div>
-          <h2 id='h2'>Sign Up</h2>
+          <h2 id='Heading'>Sign Up</h2>
           <p id='p'>
-            <label htmlFor="Firstname" className="floatLabel">First Name</label>
+            <label id="Label" htmlFor="Firstname" className="floatLabel">First Name</label>
             <input id="F_Name" name="firstName" type="text" />
           </p>
           <p id='p'>
-            <label htmlFor="Lastname" className="floatLabel">Last Name</label>
+            <label id="Label" htmlFor="Lastname" className="floatLabel">Last Name</label>
             <input id="L_Name" name="lastName" type="text" />
           </p>
           <p id='p'>
-            <label htmlFor="Username" className="floatLabel">Username</label>
+            <label id="Label" htmlFor="Username" className="floatLabel">Username</label>
             <input id="U_Name" name="username" type="text" />
           </p>
           <p id='p'>
-            <label htmlFor="Email" className="floatLabel">Email</label>
+            <label id="Label" htmlFor="Email" className="floatLabel">Email</label>
             <input id="Email" name="email" type="text" />
           </p>
           <p id='p'>
-            <label htmlFor="password" className="floatLabel">Password</label>
+            <label id="Label" htmlFor="password" className="floatLabel">Password</label>
             <input id="password" name="password" type="password" />
             {/* <span id="error_msg">Enter a password longer than 8 characters</span> */}
           </p>
           <p id='p'>
-            <label htmlFor="confirm_password" className="floatLabel">Confirm Password</label>
-            <input id="confirm_password" name="confirm_password" type="password" />
+            <label id="Label" htmlFor="confirm_password" className="floatLabel">Confirm Password</label>
+            <input id="password" name="confirm_password" type="password" />
             {/* <span id="error_msg">Your passwords do not match</span> */}
           </p>
           <p id='p'>
