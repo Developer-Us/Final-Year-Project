@@ -6,17 +6,17 @@ export default function Login() {
     <>
     <div id="RightSideSection" className="Login">
         <form id="form">
-          <h2 id="h2">Log in</h2>
+          <h2 id="Heading">Log in</h2>
 
           <p id='p'>
-            <label htmlFor="Email" className="floatLabel">
+            <label id="Label" htmlFor="Email" className="floatLabel">
               email
             </label>
             <input id="Email" name="email" type="text" />
           </p>
 
           <p id='p'>
-            <label htmlFor="password" className="floatLabel">
+            <label id="Label" htmlFor="password" className="floatLabel">
               Password
             </label>
             <input id="password" name="password" type="password" />

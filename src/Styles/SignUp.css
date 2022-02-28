@@ -47,7 +47,7 @@
     color: #000;
 }
 
-#h2 {
+#Heading {
     margin:0px 0 50px 0;
     padding:10px;
     text-align:center;
@@ -62,7 +62,7 @@
     position: relative;
 }
   
-input 
+#F_Name,#L_Name,#U_Name,#Email,#password,#submit
 {
     display: block;
     box-sizing: border-box;
@@ -70,8 +70,7 @@ input
     outline: none;
     margin:0;
 }
-input[type="text"],
-input[type="password"] 
+#F_Name,#L_Name,#U_Name,#Email,#password
 {
     background: rgba(219, 218, 218, 0.342);
     border: 1px solid rgba(161, 161, 161, 0.534);
@@ -79,8 +78,7 @@ input[type="password"]
     padding: .8em .5em;
     border-radius: 5px;
 }
-  input[type="text"]:focus,
-  input[type="password"]:focus 
+  #F_Name:focus,#L_Name:focus,#U_Name:focus,#Email:focus,#password:focus 
 {
     background: rgb(255, 255, 255);
     
@@ -118,20 +116,15 @@ this is to add error msg
     box-shadow: 0 0 0.2em rgba(20, 20, 20, 0.719); 
 }
 
-label
+#Label
 {
     position: absolute;
     left: 8px;
-    top: 12px;
     color: rgb(87, 86, 86);
     font-size: 16px;
     display: inline-block;
     padding: 4px 10px;
     font-weight: 400;
-    background-color: rgba(255,255,255,0);
-}
-.floatLabel
-{
     top: -20px;
     background-color: rgba(219, 218, 218, 0);
     font-size: 13px;
