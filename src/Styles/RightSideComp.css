@@ -1,0 +1,212 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#FormForUpload{
+    width: 80vw;
+    height: 100vh;
+    overflow:scroll;
+}
+.UploadFormContainer
+{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:80vw;
+    height:100%;
+    flex-direction: column;
+}
+#UploadLogo{
+    border:2px solid rgba(73, 71, 71, 0.37);
+    background-color: rgb(73, 71, 71,0.37);
+    width:150px;
+    height:150px;
+    border-radius:84px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.FileDialogue{
+width:321px;
+}
+#SelectFile{
+margin-left:63px;
+}
+#InfoDragDrop{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:321px;
+    margin-top: 15px;
+}
+#btnContinue{
+    width:121px;
+    height:55px; 
+    border:2px solid #0c0cff; 
+    background-color: #0c0cff; 
+    border-radius: 12px; 
+    box-shadow: 2px 2px 20px rgb(32, 30, 30) inset;
+    margin-top: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Ved_1{
+    width:80vw;
+    height:48vh;
+    margin-top:9px;
+}
+#FormElementContainer1{
+    margin-top: 2px;
+    padding:35px 12px;
+    display:none;
+    flex-direction: column;
+    /* border:2px solid green; */
+    height:140vh;
+}
+#FormElementContainer2{
+    display:none;
+    flex-direction:column;
+}
+#DescContainer{
+    width:78vw;
+    height:30vh;
+}
+#Description{
+    width:74vw;
+    height:21vh;  
+    margin-top: 10px; 
+}
+.FormElement{
+    border: 2px solid rgb(49, 49, 230);
+    border-radius: 12px;
+    padding: 5px 24px;
+    width:78vw;
+    height:14vh;
+    margin-top:17px;
+}
+.B_TagForLabel{
+  font-size:22px;
+}
+.LabelForInputs{
+display:block;
+}
+.InputProperty{
+    border: none;
+    outline:none;
+}
+#notesLabel{
+    display:inline;
+    width:150px;
+    height: 30px;
+    /* border:2px solid green; */
+}
+#Notes{
+    height:15vh;
+}
+#title{
+    width:74vw;
+    height:6vh;
+    margin-top:2px;
+}
+#PlusBtn{
+    margin-left: 40px;
+}
+.CenterContinueBtn{
+    display: flex;
+    width:80vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#AddBtnLabel{
+/* border:2px solid green; */
+width:250px;
+display:flex;
+flex-direction:row;
+}
+#CancelBtn{
+    height: 28px;
+    margin-top: 2px;
+}
+.TakeFileAsInput
+{
+/* border: 2px solid green; */
+height:30px;
+margin-top: 12px;
+}
+#fileContain{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    align-items: center;
+}
+#CancelLogo{
+    /* border: 2px solid green; */
+    height:35px;
+    display: flex;
+    width:30px;
+    align-items: center;
+}
+.replaceSpan{
+    padding-right: 12px;
+}
+#UploadBtnContainer{
+    display:flex;
+    justify-content: center;
+}
+#UploadBtn{
+    width:121px;
+    height:55px; 
+    border:2px solid #0c0cff; 
+    background-color: #0c0cff; 
+    border-radius: 12px; 
+    box-shadow: 2px 2px 20px rgb(32, 30, 30) inset;
+    margin-top: 30px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Special Effect*/
+.block_Win{
+    display: none;
+    width:0px;
+    height:0px;
+}
+.FormElement:hover{
+border: 2px solid rgb(49, 49, 230);
+border-radius: 12px;
+padding: 5px 24px;
+width:78vw;
+height:14vh;
+box-shadow: 3px 3px 40px rgb(49, 49, 230);
+}
+#btnContinue:hover{
+    box-shadow: 2px 2px 20px rgb(32, 30, 30);
+}
+#UploadBtn:hover{
+    box-shadow: 2px 2px 20px rgb(32, 30, 30);  
+}
+#PlusBtnForNotes:hover{
+color:blue;
+}
+#CancelBtn:hover{
+    color:blue;
+}
+.ErrorMsgEffect{
+    border: 2px solid rgb(233, 48, 16);
+    border-radius: 12px;
+    padding: 5px 24px;
+    width:78vw;
+    height:14vh;
+    box-shadow: 3px 3px 40px rgb(233, 48, 16);  
+    margin-top: 12px;
+}
