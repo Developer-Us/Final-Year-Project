@@ -1,16 +1,17 @@
 import '../Styles/SignUp.css';
 import React, { useEffect } from 'react'
 import AddAPhotoRoundedIcon from '@mui/icons-material/AddAPhotoRounded';
-
-
 export default function SignUp() {
   useEffect(() => {
     document.getElementById("body").style.overflow = "scroll";
   })
+
   return (
     <>
       <div id="RightSideSection" className='signup'>
-        <form id="form">
+        <form id="form" onSubmit={(e)=>{
+         e.defaultPrevented();
+        }}>
           <div id="circle">
             <span id="profile_logo">
               <img src="Logo/profile.png" height="80px" width="80px" alt="loading..." />
@@ -51,7 +52,7 @@ export default function SignUp() {
           </p>
           <p id='p'>
             <button id='text'>
-              <div className="google-icon"> <img src="Images/icon-google.png" alt="" /></div>
+            <div className="google-icon"> <img src="Images/icon-google.png" alt="" /></div>
               <div> Sign up with Google </div>
             </button>
           </p>

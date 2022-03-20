@@ -1,15 +1,14 @@
 
 import '../Styles/App.css';
-
-
 import Home from './Home';
 function App() {
 
   return (
-    <div className="App">
-      <Home />
-    </div>
-
+  <>
+<div className="App">
+ <Home />
+</div>
+</>
   );
 }
 

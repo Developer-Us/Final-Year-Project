@@ -1,0 +1,75 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+#TopLevelContainer{
+/* border:3px solid green; */
+width:100vw;
+height:100vh;
+display:flex;
+}
+#LeftSidePanel{
+    /* border:3px solid red; */
+    width:20vw;
+    height:100vh;
+    box-shadow:2px 2px 20px black;
+}
+#RightSidePanel{
+    /* border:3px solid yellow; */
+    width:80vw;
+    height:100vh;
+}
+#TitleUpload{
+border:3px solid #b8b2b2;
+width:20vw;
+margin-top:71px;
+}
+#LeftPanelOptions{
+    display:flex;
+    flex-direction:column;
+    /* border:2px solid blue; */
+    width:20vw;
+    height:50vh;
+    text-align:center;
+}
+#LeftPanelOptions li{
+    /* border:3px solid black; */
+    width:20vw;
+    list-style:none;
+    margin-top:34px;
+}
+.OptionUpload{
+display:flex;
+font-size:17px;
+padding:12px;
+}
+.OptionName{
+    margin-left:33px;
+}
+.OptionLogo{
+    margin-left:18px;
+}
+/*ANIMATION CLASSES*/
+.OnStartApplyOnLeftPanel_1{
+    display:flex;
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+    font-size:17px;
+    padding:12px;
+}
+.OnStartApplyOnLeftPanel_2{
+    display:flex;
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+    font-size:17px;
+    padding:12px;
+}
+/*HOVER EFFECTS*/
+#LeftPanelOptions li:hover{
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+}
