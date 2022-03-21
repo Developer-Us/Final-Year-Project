@@ -1,11 +1,19 @@
 import React from "react";
 import "../Styles/Login.css";
 
+import { useContext } from 'react';
+import LoggedInStatusContext from '../Context/LoggedInStatus/LoggedInStatusContext';
+
 export default function Login() {
+
+  const is_loggedin = useContext(LoggedInStatusContext);
   return (
     <>
     <div id="RightSideSection" className="Login">
-        <form id="form">
+        <form id="form" onSubmit={(e)=>{
+               e.preventDefault();
+               is_loggedin.setLoggedin(true);
+        }}>
           <h2 id="Heading">Log in</h2>
 
           <p id='p'>
@@ -24,7 +32,7 @@ export default function Login() {
           </p>
 
           <p id='p'>
-            <input type="button" value="Log in" id="submit" />
+            <input type="submit" value="Log in" id="submit" />
           </p>
           <p id='p'>
             <button id="text">

@@ -3,8 +3,16 @@ import {useState} from 'react'
 import FileUploadIcon from '@mui/icons-material/FileUpload';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import RightSideComp from './RightSideComp';
+import { useEffect } from 'react';
 
 const Upload=()=>{
+    useEffect(() => {
+        document.getElementById("LeftBar").className = "ToggleLeftBarInside";
+        document.getElementById("RightSideSection").style.position = "static";
+        document.getElementById("RightSideSection").style.width = "100%";
+        document.getElementById("RightSideSection").className = "ToggleVideoSectionToLeft";
+      })
+
 const [windowChang,setWin]=useState(1);
 const startUpload_1=()=>{
     document.getElementById("optionNo_1").className = "OnStartApplyOnLeftPanel_1";

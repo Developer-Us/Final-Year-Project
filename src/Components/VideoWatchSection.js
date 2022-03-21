@@ -15,8 +15,6 @@ export default function VideoWatchSection() {
   })
   
 
-
-
   //Functions for handling hover effect for like, share ...btns
   const DisplayLikeText = ()=>{
     document.getElementById("likeBtnText").style.display="block";

@@ -3,14 +3,16 @@ import LeftBar from './LeftBar';
 import Navbar from './Navbar';
 import VedioContainer from './VedioContainer';
 import Login from './Login'
-import SignUp from './SignUp'
+import SignUp from './SignUp';
 import VideoWatchSection from './VideoWatchSection';
+import Upload from './Upload';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+
 
 export default function Home() {
   return (
@@ -34,6 +36,10 @@ export default function Home() {
 
           <Route exact path="/signUp">
             <SignUp />
+          </Route>
+
+          <Route exact path="/uploadVideo">
+            <Upload/>
           </Route>
         </Switch>
       </Router>
