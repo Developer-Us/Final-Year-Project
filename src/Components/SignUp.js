@@ -1,6 +1,6 @@
 import '../Styles/SignUp.css';
 import React, { useEffect } from 'react'
-import AddAPhotoRoundedIcon from '@mui/icons-material/AddAPhotoRounded';
+// import AddAPhotoRoundedIcon from '@mui/icons-material/AddAPhotoRounded';
 export default function SignUp() {
   useEffect(() => {
     document.getElementById("body").style.overflow = "scroll";
