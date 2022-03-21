@@ -1,6 +1,6 @@
 import '../Styles/SignUp.css';
 import React, { useEffect } from 'react'
-import AddAPhotoRoundedIcon from '@mui/icons-material/AddAPhotoRounded';
+// import AddAPhotoRoundedIcon from '@mui/icons-material/AddAPhotoRounded';
 export default function SignUp() {
   useEffect(() => {
     document.getElementById("body").style.overflow = "scroll";
@@ -8,18 +8,23 @@ export default function SignUp() {
 
   return (
     <>
+    {/* action="http://127.0.0.1:8000/register/" */}
       <div id="RightSideSection" className='signup'>
-        <form id="form" onSubmit={(e)=>{
-         e.defaultPrevented();
-        }}>
+        <form method='post'enctype="multipart/form-data" id="form">
+            
           <div id="circle">
             <span id="profile_logo">
               <img src="Logo/profile.png" height="80px" width="80px" alt="loading..." />
             </span>
           </div>
-          <div id="smallcircle">
+          
+          {/*for selecting profile picture as input  */}
+          {/* <div id="smallcircle" onClick={profilePicInputHandler}>
             <AddAPhotoRoundedIcon />
-          </div>
+          </div> */}
+          <input type="file"  id="ProfilePicture" name="profile_pic"/>
+
+          {/* other fields */}
           <h2 id='Heading'>Sign Up</h2>
           <p id='p'>
             <label id="Label" htmlFor="Firstname" className="floatLabel">First Name</label>
@@ -42,13 +47,12 @@ export default function SignUp() {
             <input id="password" name="password" type="password" />
             {/* <span id="error_msg">Enter a password longer than 8 characters</span> */}
           </p>
-          <p id='p'>
+          {/* <p id='p'>
             <label id="Label" htmlFor="confirm_password" className="floatLabel">Confirm Password</label>
             <input id="password" name="confirm_password" type="password" />
-            {/* <span id="error_msg">Your passwords do not match</span> */}
-          </p>
+          </p> */}
           <p id='p'>
-            <input type="button" value="Create My Account" id="submit" />
+            <input type="submit" value="Create My Account" id="submit" />
           </p>
           <p id='p'>
             <button id='text'>
